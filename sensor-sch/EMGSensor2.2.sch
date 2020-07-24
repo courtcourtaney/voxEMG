@@ -1,0 +1,466 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR?
+U 1 1 5F16B207
+P 4390 4134
+F 0 "#PWR?" H 4390 3884 50  0001 C CNN
+F 1 "GND" H 4395 3961 50  0000 C CNN
+F 2 "" H 4390 4134 50  0001 C CNN
+F 3 "" H 4390 4134 50  0001 C CNN
+	1    4390 4134
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Variable_US R11
+U 1 1 5F02FDDD
+P 7188 4049
+F 0 "R11" V 7088 3999 50  0000 L CNN
+F 1 "100kΩ" V 7330 3934 50  0000 L CNN
+F 2 "" V 7118 4049 50  0001 C CNN
+F 3 "~" H 7188 4049 50  0001 C CNN
+	1    7188 4049
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R6
+U 1 1 5F1DCCC4
+P 5188 4449
+F 0 "R6" V 5083 4492 50  0000 R CNN
+F 1 "500Ω" V 5275 4543 50  0000 R CNN
+F 2 "" V 5228 4439 50  0001 C CNN
+F 3 "~" H 5188 4449 50  0001 C CNN
+	1    5188 4449
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Variable_US R5
+U 1 1 5F034B14
+P 5188 2949
+F 0 "R5" V 5075 2996 50  0000 C CNN
+F 1 "500Ω" V 5288 2868 50  0000 C CNN
+F 2 "" V 5118 2949 50  0001 C CNN
+F 3 "~" H 5188 2949 50  0001 C CNN
+	1    5188 2949
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4738 2949 5038 2949
+Text GLabel 7738 3899 2    50   Input ~ 0
+Out
+$Comp
+L Device:R_US R3
+U 1 1 5F005405
+P 4738 3199
+F 0 "R3" V 4830 3262 50  0000 R CNN
+F 1 "100kΩ" V 4645 3326 50  0000 R CNN
+F 2 "" V 4778 3189 50  0001 C CNN
+F 3 "~" H 4738 3199 50  0001 C CNN
+	1    4738 3199
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R4
+U 1 1 5F005AC6
+P 4738 4149
+F 0 "R4" V 4832 4147 50  0000 C CNN
+F 1 "100kΩ" V 4642 4149 50  0000 C CNN
+F 2 "" V 4778 4139 50  0001 C CNN
+F 3 "~" H 4738 4149 50  0001 C CNN
+	1    4738 4149
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4738 3799 4738 3999
+Wire Wire Line
+	4738 4299 4738 4449
+Wire Wire Line
+	4738 4449 5038 4449
+Wire Wire Line
+	4588 3799 4738 3799
+Wire Wire Line
+	4738 3799 4888 3799
+Connection ~ 4738 3799
+Wire Wire Line
+	5338 4449 5538 4449
+Wire Wire Line
+	4190 3449 4288 3449
+Wire Wire Line
+	4190 3799 4288 3799
+$Comp
+L power:GND #PWR?
+U 1 1 5F4C7526
+P 7188 4302
+F 0 "#PWR?" H 7188 4052 50  0001 C CNN
+F 1 "GND" H 7193 4129 50  0000 C CNN
+F 2 "" H 7188 4302 50  0001 C CNN
+F 3 "" H 7188 4302 50  0001 C CNN
+	1    7188 4302
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5538 2949 5538 3099
+Wire Wire Line
+	5338 2949 5538 2949
+$Comp
+L power:GND #PWR?
+U 1 1 5F1C9F37
+P 5538 3099
+F 0 "#PWR?" H 5538 2849 50  0001 C CNN
+F 1 "GND" H 5543 2926 50  0000 C CNN
+F 2 "" H 5538 3099 50  0001 C CNN
+F 3 "" H 5538 3099 50  0001 C CNN
+	1    5538 3099
+	1    0    0    -1  
+$EndComp
+Text Label 3698 3291 0    50   ~ 0
+Electrodes
+$Comp
+L Device:CP1 C3
+U 1 1 5F1A7079
+P 6488 4499
+F 0 "C3" H 6338 4499 50  0000 C CNN
+F 1 "10uF" H 6338 4399 50  0000 C CNN
+F 2 "" H 6488 4499 50  0001 C CNN
+F 3 "~" H 6488 4499 50  0001 C CNN
+	1    6488 4499
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6638 4349 6788 4349
+Wire Wire Line
+	6638 4199 6938 4199
+Wire Wire Line
+	6638 4349 6638 4199
+Connection ~ 6638 4349
+Wire Wire Line
+	6488 4349 6638 4349
+$Comp
+L power:GND #PWR?
+U 1 1 5F175749
+P 6938 4199
+F 0 "#PWR?" H 6938 3949 50  0001 C CNN
+F 1 "GND" H 6943 4026 50  0000 C CNN
+F 2 "" H 6938 4199 50  0001 C CNN
+F 3 "" H 6938 4199 50  0001 C CNN
+	1    6938 4199
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6638 4649 6788 4649
+Wire Wire Line
+	6488 4649 6638 4649
+Connection ~ 6638 4649
+$Comp
+L power:-VDC -9V
+U 1 1 5F1601A8
+P 6638 4649
+F 0 "-9V" H 6481 4774 50  0000 C CNN
+F 1 "-VDC" H 6488 4699 50  0001 C CNN
+F 2 "" H 6638 4649 50  0001 C CNN
+F 3 "" H 6638 4649 50  0001 C CNN
+	1    6638 4649
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5F021750
+P 6788 4499
+F 0 "C4" H 6688 4499 50  0000 R CNN
+F 1 "0.1uF" H 6738 4599 50  0000 R CNN
+F 2 "" H 6826 4349 50  0001 C CNN
+F 3 "~" H 6788 4499 50  0001 C CNN
+	1    6788 4499
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F16E85A
+P 5888 4349
+F 0 "#PWR?" H 5888 4099 50  0001 C CNN
+F 1 "GND" H 5893 4176 50  0000 C CNN
+F 2 "" H 5888 4349 50  0001 C CNN
+F 3 "" H 5888 4349 50  0001 C CNN
+	1    5888 4349
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7488 3899 7738 3899
+$Comp
+L power:-VDC -9V
+U 1 1 5F15D1D1
+P 6188 4099
+F 0 "-9V" H 6031 4223 50  0000 C CNN
+F 1 "-VDC" H 6038 4149 50  0001 C CNN
+F 2 "" H 6188 4099 50  0001 C CNN
+F 3 "" H 6188 4099 50  0001 C CNN
+	1    6188 4099
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:-VDC -9V
+U 1 1 5EFB6FCB
+P 5188 3999
+F 0 "-9V" H 5017 4125 50  0000 C CNN
+F 1 "-VDC" H 5038 4049 50  0001 C CNN
+F 2 "" H 5188 3999 50  0001 C CNN
+F 3 "" H 5188 3999 50  0001 C CNN
+	1    5188 3999
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7488 3399 7488 3449
+Wire Wire Line
+	7188 3399 7188 3449
+Wire Wire Line
+	7188 3349 7188 3399
+Connection ~ 7188 3399
+Wire Wire Line
+	7188 3399 7488 3399
+Wire Wire Line
+	7488 4249 7488 4199
+Wire Wire Line
+	7188 4249 7188 4302
+Wire Wire Line
+	7188 4199 7188 4249
+Connection ~ 7188 4249
+Wire Wire Line
+	7188 4249 7488 4249
+Wire Wire Line
+	7488 3799 7488 3899
+Wire Wire Line
+	7188 3799 7188 3749
+Wire Wire Line
+	7188 3799 7488 3799
+Connection ~ 7188 3799
+Wire Wire Line
+	7188 3799 7188 3899
+Connection ~ 7488 3799
+Wire Wire Line
+	7488 3799 7488 3749
+Wire Wire Line
+	7138 3799 7188 3799
+Wire Wire Line
+	6488 3799 6538 3799
+Wire Wire Line
+	6538 3399 6538 3799
+Wire Wire Line
+	6338 3399 6538 3399
+Connection ~ 6538 3399
+Wire Wire Line
+	6538 3099 6538 3399
+Wire Wire Line
+	6338 3099 6538 3099
+Wire Wire Line
+	5838 3099 6038 3099
+Wire Wire Line
+	5838 3399 5838 3099
+Wire Wire Line
+	5838 3399 6038 3399
+Connection ~ 5838 3399
+Wire Wire Line
+	5838 3699 5838 3399
+Wire Wire Line
+	5888 3899 5888 4349
+Wire Wire Line
+	5838 3699 5888 3699
+Wire Wire Line
+	5488 3699 5538 3699
+Wire Wire Line
+	5538 4449 5538 3699
+Wire Wire Line
+	4738 3049 4738 2949
+Wire Wire Line
+	4738 3599 4888 3599
+Wire Wire Line
+	4738 3449 4738 3349
+Wire Wire Line
+	4738 3449 4738 3599
+Connection ~ 4738 3449
+Wire Wire Line
+	4588 3449 4738 3449
+$Comp
+L Amplifier_Operational:TL072 IC2
+U 1 1 5EFFF4DD
+P 6188 3799
+F 0 "IC2" H 6338 3949 50  0000 C CNN
+F 1 "TL072" H 6388 4049 50  0000 C CNN
+F 2 "" H 6188 3799 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6188 3799 50  0001 C CNN
+	1    6188 3799
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_US R8
+U 1 1 5F004A6F
+P 6188 3399
+F 0 "R8" V 6088 3399 50  0000 C CNN
+F 1 "150kΩ" V 6288 3399 50  0000 C CNN
+F 2 "" V 6228 3389 50  0001 C CNN
+F 3 "~" H 6188 3399 50  0001 C CNN
+	1    6188 3399
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5F01FBE3
+P 6188 3099
+F 0 "C1" H 6088 2999 50  0000 C CNN
+F 1 "2nF" H 6088 3199 50  0000 C CNN
+F 2 "" H 6226 2949 50  0001 C CNN
+F 3 "~" H 6188 3099 50  0001 C CNN
+	1    6188 3099
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4190 4134 4390 4134
+$Comp
+L Amplifier_Operational:OPA1612AxD IC1
+U 1 1 5EF9FFAB
+P 5188 3699
+F 0 "IC1" H 5196 3973 50  0000 C CNN
+F 1 "OPA1612" H 5317 3895 50  0000 C CNN
+F 2 "" H 5188 3699 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa1612.pdf" H 5188 3699 50  0001 C CNN
+	1    5188 3699
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R1
+U 1 1 5F005615
+P 4438 3449
+F 0 "R1" V 4338 3449 50  0000 C CNN
+F 1 "10kΩ" V 4538 3449 50  0000 C CNN
+F 2 "" V 4478 3439 50  0001 C CNN
+F 3 "~" H 4438 3449 50  0001 C CNN
+	1    4438 3449
+	0    1    1    0   
+$EndComp
+Text GLabel 4190 3449 0    50   Input ~ 0
+Mid-Muscle
+Text GLabel 4190 4134 0    50   Input ~ 0
+Reference
+$Comp
+L Device:R_US R10
+U 1 1 5F004FE5
+P 7188 3599
+F 0 "R10" V 7088 3499 50  0000 L CNN
+F 1 "100kΩ" V 7288 3499 50  0000 L CNN
+F 2 "" V 7228 3589 50  0001 C CNN
+F 3 "~" H 7188 3599 50  0001 C CNN
+	1    7188 3599
+	1    0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D1
+U 1 1 5F02CC15
+P 7488 3599
+F 0 "D1" H 7538 3499 50  0000 R CNN
+F 1 " " V 7443 3519 50  0000 R CNN
+F 2 "" H 7488 3599 50  0001 C CNN
+F 3 "~" H 7488 3599 50  0001 C CNN
+F 4 "Y" H 7488 3599 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "D" H 7488 3599 50  0001 L CNN "Spice_Primitive"
+	1    7488 3599
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F0370E9
+P 7188 3349
+F 0 "#PWR?" H 7188 3199 50  0001 C CNN
+F 1 "+3V3" H 7203 3522 50  0000 C CNN
+F 2 "" H 7188 3349 50  0001 C CNN
+F 3 "" H 7188 3349 50  0001 C CNN
+	1    7188 3349
+	1    0    0    -1  
+$EndComp
+Connection ~ 7488 3899
+$Comp
+L Simulation_SPICE:DIODE D2
+U 1 1 5F02E17E
+P 7488 4049
+F 0 "D2" H 7538 3949 50  0000 R CNN
+F 1 " " V 7443 3969 50  0000 R CNN
+F 2 "" H 7488 4049 50  0001 C CNN
+F 3 "~" H 7488 4049 50  0001 C CNN
+F 4 "Y" H 7488 4049 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "D" H 7488 4049 50  0001 L CNN "Spice_Primitive"
+	1    7488 4049
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R9
+U 1 1 5F02A158
+P 6988 3799
+F 0 "R9" V 7088 3849 50  0000 C CNN
+F 1 "1kΩ" V 6888 3849 50  0000 C CNN
+F 2 "" V 7028 3789 50  0001 C CNN
+F 3 "~" H 6988 3799 50  0001 C CNN
+	1    6988 3799
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6538 3799
+$Comp
+L Device:CP1 C2
+U 1 1 5F026906
+P 6688 3799
+F 0 "C2" V 6538 3799 50  0000 C CNN
+F 1 "10uF" V 6838 3799 50  0000 C CNN
+F 2 "" H 6688 3799 50  0001 C CNN
+F 3 "~" H 6688 3799 50  0001 C CNN
+	1    6688 3799
+	0    1    1    0   
+$EndComp
+Text Label 6188 3999 1    50   ~ 0
+4
+Wire Wire Line
+	6188 3899 6188 4099
+Connection ~ 5538 3699
+Connection ~ 5838 3699
+$Comp
+L Device:R_US R7
+U 1 1 5F003DCE
+P 5688 3699
+F 0 "R7" V 5588 3699 50  0000 C CNN
+F 1 "10kΩ" V 5788 3699 50  0000 C CNN
+F 2 "" V 5728 3689 50  0001 C CNN
+F 3 "~" H 5688 3699 50  0001 C CNN
+	1    5688 3699
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 5F005825
+P 4438 3799
+F 0 "R2" V 4338 3799 50  0000 C CNN
+F 1 "10kΩ" V 4538 3799 50  0000 C CNN
+F 2 "" V 4478 3789 50  0001 C CNN
+F 3 "~" H 4438 3799 50  0001 C CNN
+	1    4438 3799
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5188 3799 5188 3999
+Text Label 5188 3899 1    50   ~ 0
+4
+Text GLabel 4190 3799 0    50   Input ~ 0
+End-Muscle
+Text Notes 7382 7496 0    50   ~ 0
+Vocal EMG Sensor (vs2.2) - single muscle setup
+Text Notes 8173 7635 0    50   ~ 0
+24 July 2020
+$EndSCHEMATC
