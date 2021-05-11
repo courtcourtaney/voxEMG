@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name ul_BAS4004W)(type KiCad)(uri /Users/courtneyreed/Desktop/VoxEMG/footprints/ul_BAS4004W/KiCAD/2021-05-07_14-59-13/footprints.pretty)(options "")(descr ""))
+  (lib (name OPA1612AID)(type KiCad)(uri /Users/courtneyreed/Desktop/VoxEMG/footprints/ul_OPA1612AID/KiCAD/2021-05-07_15-20-13/footprints.pretty)(options "")(descr ""))
+)

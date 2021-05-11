@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name BAS4004W)(type Legacy)(uri /Users/courtneyreed/Desktop/VoxEMG/footprints/ul_BAS4004W/KiCAD/2021-05-07_14-59-13/2021-05-07_14-59-13.lib)(options "")(descr ""))
+  (lib (name OPA1612AID)(type Legacy)(uri /Users/courtneyreed/Desktop/VoxEMG/footprints/ul_OPA1612AID/KiCAD/2021-05-07_15-20-13/2021-05-07_15-20-13.lib)(options "")(descr ""))
+)
