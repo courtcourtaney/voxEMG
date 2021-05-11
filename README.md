@@ -22,9 +22,11 @@ In the spirit of open-access research, VoxEMG and the designs included here are 
 
 If you use these designs or reference them, please cite the following papers in your work: <br>
 
+<p align="center"><span style="font-size:2em;">
  Reed, C. N. and McPherson, A. P. <em>Surface Electromyography for Direct Vocal Control.</em> Proc. International Conference on New Interfaces for Musical Expression (NIME), July 21-25, Birmingham City University, pp. 458–463. Birmingham Conservatoire, Birmingham, UK. 2020. [[PDF]](https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/65364/Reed%20Surface%20Electromyography%20for%202020%20Published.pdf?sequence=2) [[Video]](https://www.youtube.com/watch?v=1nWLgQGNh0g&list=PLz8WNY_I2S5TI1nA-6xaeJksLJPhPpeNa&index=5&t=0s0) <br>
 
  Reed, C. N. and McPherson, A. P. <em> Surface Electromyography for Sensing Performance Intention and Musical Imagery in Vocalists.</em> In Fifteenth International Conference on Tangible, Embedded, and Embodied Interaction (TEI’21), February 14–19, Salzburg, Austria. ACM, New York, NY, USA, 11 pages. 2021. [DOI: 10.1145/3430524.3440641](https://dl.acm.org/doi/10.1145/3430524.3440641) [[Video]](https://www.youtube.com/watch?v=XujlMjoBG04&list=PLqhXYFYmZ-VeRef4QbMrBzl3NIj6HhStb&index=31&ab_channel=ACMSIGCHI)<br>
+</span></p>
 
 If you want to create a commercial product using the VoxEMG hardware designs and don't want to release it under the same license, you will need a commercial license. Please email me at [c.n.reed@qmul.ac.uk](mailto:c.n.reed@qmul.ac.uk) to enquire further. </p>
 
@@ -66,9 +68,9 @@ The KiCad project containing the VoxEMG schematics and board layout can be found
 ^ Additionally (and especially if you use reusable electrodes), you will need to purchase some adhesive conductive paste (we recommend [Ten20](https://www.pulsemedical.co.uk/store/Ten20-Conductive-Paste-228g-jars-3-pack-10-20-8-p69723951)) and flexible non-woven fabric tape to help secure the electrodes (we use [Hypafix](https://www.bsnmedical.com/products/wound-care-vascular/category-product-search/acute-wound-care/fixation/hypafixr-transparent.html)).<br>
 ^^ the electrodes here use a DIN adaptor intended for use with medical EMG devices; cut these off and you can use either alligator clips to connect these, or solder a male pin to the end of the cable so you can use it in a breadboard.<br>
 
-                           |  
+VoxEMG PCB layout          | VoxEMG board
 :-------------------------:|:-------------------------:
-![VoxEMG PCB layout](https://github.com/courtcourtaney/voxEMG/blob/master/pics/PCB.png)  |  ![VoxEMG board](https://github.com/courtcourtaney/voxEMG/blob/master/pics/3Drender.png)
+![](https://github.com/courtcourtaney/voxEMG/blob/master/pics/PCB.png)  |  ![](https://github.com/courtcourtaney/voxEMG/blob/master/pics/3Drender.png)
 
 ## Example Use
 Electrodes will need to be affixed to the muscle site, for instance on the suprahyoid digastric muscle here. The VoxEMG board contains both input header pins and castellated holes (designed by Adan Benito and Becky Stewart for the [Bela E-textile Capelet](https://oshpark.com/shared_projects/y0oSowUt) on Innovate UK) for electrode connections. <br>
