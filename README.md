@@ -58,18 +58,24 @@ Parts^
 
 The KiCad project containing the VoxEMG schematics and board layout can be found in the folder *VoxEMG-v3.1,* otherwise using the following schematic (v3.1). This schematic depicts use of one side of the ICs - for the second muscle, the connections should be duplicated on the other side. See *VoxEMG-v3.1/EMGSensor3.1.sch* for the full schematic. <br>
 
-<div style="text-align:center"><img src="https://github.com/courtcourtaney/voxEMG/blob/master/pics/sch.png" width="425"/>
+<p align="center">
+<img src="https://github.com/courtcourtaney/voxEMG/blob/master/pics/sch.png" width="700"/>
+</p>
 
 *Some notes:* <br>
 ^ Additionally (and especially if you use reusable electrodes), you will need to purchase some adhesive conductive paste (we recommend [Ten20](https://www.pulsemedical.co.uk/store/Ten20-Conductive-Paste-228g-jars-3-pack-10-20-8-p69723951)) and flexible non-woven fabric tape to help secure the electrodes (we use [Hypafix](https://www.bsnmedical.com/products/wound-care-vascular/category-product-search/acute-wound-care/fixation/hypafixr-transparent.html)).<br>
 ^^ the electrodes here use a DIN adaptor intended for use with medical EMG devices; cut these off and you can use either alligator clips to connect these, or solder a male pin to the end of the cable so you can use it in a breadboard.<br>
 
-![VoxEMG PCB layout](https://github.com/courtcourtaney/voxEMG/blob/master/pics/PCB.png)  |  ![VoxEMG board](https://github.com/courtcourtaney/voxEMG/blob/master/pics/3Drender.png)
+                           |  
+:-------------------------:|:-------------------------:
+https://github.com/courtcourtaney/voxEMG/blob/master/pics/PCB.png)  |  ![VoxEMG board](https://github.com/courtcourtaney/voxEMG/blob/master/pics/3Drender.png)
 
 ## Example Use
 Electrodes will need to be affixed to the muscle site, for instance on the suprahyoid digastric muscle here. The VoxEMG board contains both input header pins and castellated holes (designed by Adan Benito and Becky Stewart for the [Bela E-textile Capelet](https://oshpark.com/shared_projects/y0oSowUt) on Innovate UK) for electrode connections. <br>
 
-<div style="text-align:center"><img src="https://github.com/courtcourtaney/voxEMG/blob/master/pics/electrode-place-2.JPG" width="425"/>
+<p align="center">
+<img src="https://github.com/courtcourtaney/voxEMG/blob/master/pics/electrode-place-2.JPG" width="700"/>
+</p>
 
 We use a Bela for collection of voltages from the EMG, and so the code included here is also for Bela - it is fine to use another microcontroller, so long as you're ok with implementing some simple digital filtering. In this case, we use the analog inputs on Bela.<br>
 
