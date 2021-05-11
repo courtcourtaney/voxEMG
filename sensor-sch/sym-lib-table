@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name EMGSensor-rescue)(type Legacy)(uri ${KIPRJMOD}/EMGSensor-rescue.lib)(options "")(descr ""))
-)
