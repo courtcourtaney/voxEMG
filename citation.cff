@@ -2,13 +2,14 @@
 ---
 authors: 
   -
-    family-names: "Courtney N."
-    given-names: Reed
+    family-names: "Reed"
+    given-names: Courtney N.
   -
-    family-names: "Andrew P."
-    given-names: McPherson
+    family-names: "McPherson"
+    given-names: Andrew P.
 cff-version: "1.1.0"
 date-released: 2021-07-21
+license: "Creative Commons Attribution-ShareAlike 4.0 International License"
 message: "If you use the design or schematics for VoxEMG, please include this citation."
 title: VoxEMG
 version: "3.1.0"
