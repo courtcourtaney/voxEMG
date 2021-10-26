@@ -18,7 +18,7 @@ This is an ongoing body of work as part of my PhD, so please keep an eye out for
 
 <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">VoxEMG</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Courtney N. Reed & Andrew P. McPherson</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. <br>
 
-In the spirit of open-access research, VoxEMG and the designs included here are are licensed under a Creative Commons Attribtion Sharealike license, or [CC-BY-SA](https://creativecommons.org/licenses/by-sa/3.0/). The information here is free to use and edit, so long as you provide credit and release your resulting work under the same license. This means you are free edit and use these designs, as long as you agree to supply credit and release your results under the same license. <br>
+In the spirit of open-access research, VoxEMG and the designs included here are are licensed under a Creative Commons Attribtion Sharealike license, or [CC-BY-SA](https://creativecommons.org/licenses/by-sa/3.0/). The information here is free to use and edit, so long as you provide credit and release your resulting work under the same license. This means you are free to edit and use these designs, as long as you agree to supply credit and release your results under the same license. <br>
 
 If you use these designs or reference them, please cite the following papers in your work: <br>
 
