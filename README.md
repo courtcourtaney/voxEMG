@@ -29,6 +29,10 @@ Reed, C. N. and McPherson, A. P. <em> Surface Electromyography for Sensing Perfo
 
 If you want to create a commercial product using the VoxEMG hardware designs and don't want to release it under the same license, you will need a commercial license. Please email me at [c.n.reed@qmul.ac.uk](mailto:c.n.reed@qmul.ac.uk) to enquire further. </p>
 
+<p align="center">
+<img src="https://github.com/courtcourtaney/voxEMG/blob/master/pics/voxEMG-labeled.png" width="700"/>
+</p>
+
 ## Building the Circuit
 <p> If you are interested in getting a VoxEMG board, get in contact - I'm happy to help with any sEMG and vocal projects related projects and I can supply PCBs depending on the project. If you wish to make your own board, it is relatively in-expensive and easy to build the circuit yourself and try it out. A Bill of Materials (BOM) can be found in *VoxEMG-v3.1/EMGSensor3.1_bom.xlsx* or listed out below. The setup described here is for single-circuit dual muscle measurement; if you wish to only measure one muscle, you need only use one side of the ICs: </p> <br>
 
