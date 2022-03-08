@@ -3,7 +3,6 @@
 
 
 # VoxEMG (v3.1)
-(first presented at NIME 2020)
 
 ## About
 <p>This repository contains information and all the editable project files for the VoxEMG project. VoxEMG is a pre-amplificaton circuit developed specifically for surface electromyography (sEMG) of the small extrinsic laryngeal muscles. <br>
@@ -22,9 +21,9 @@ In the spirit of open-access research, VoxEMG and the designs included here are 
 
 If you use these designs or reference them, please cite the following papers in your work: <br>
 
-<span style="font-size:2em;"> Reed, C. N. and McPherson, A. P. <em>Surface Electromyography for Direct Vocal Control.</em> Proc. International Conference on New Interfaces for Musical Expression (NIME), July 21-25, Birmingham City University, pp. 458–463. Birmingham Conservatoire, Birmingham, UK. 2020. [[PDF]](https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/65364/Reed%20Surface%20Electromyography%20for%202020%20Published.pdf?sequence=2) [[Video]](https://www.youtube.com/watch?v=1nWLgQGNh0g&list=PLz8WNY_I2S5TI1nA-6xaeJksLJPhPpeNa&index=5&t=0s0) <br>
-
-Reed, C. N. and McPherson, A. P. <em> Surface Electromyography for Sensing Performance Intention and Musical Imagery in Vocalists.</em> In Fifteenth International Conference on Tangible, Embedded, and Embodied Interaction (TEI’21), February 14–19, Salzburg, Austria. ACM, New York, NY, USA, 11 pages. 2021. [DOI: 10.1145/3430524.3440641](https://dl.acm.org/doi/10.1145/3430524.3440641) [[Video]](https://www.youtube.com/watch?v=XujlMjoBG04&list=PLqhXYFYmZ-VeRef4QbMrBzl3NIj6HhStb&index=31&ab_channel=ACMSIGCHI)<br>
+<span style="font-size:2em;"> Courtney N. Reed and Andrew P. McPherson. 2020. <em>Surface Electromyography for Direct Vocal Control.</em> In Proceedings of the International Conference on New Interfaces for Musical Expression (NIME), July 21-25, Birmingham, UK, pp. 458–463. Birmingham Conservatoire, Birmingham, UK. [[PDF]](https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/65364/Reed%20Surface%20Electromyography%20for%202020%20Published.pdf?sequence=2) [[Video]](https://www.youtube.com/watch?v=1nWLgQGNh0g&list=PLz8WNY_I2S5TI1nA-6xaeJksLJPhPpeNa&index=5&t=0s0) <br>
+	
+Courtney N. Reed, Sophie Skach, Paul Strohmeier, and Andrew P. McPherson. 2022. <em>Singing Knit: Soft Knit Biosensing for Augmenting Vocal Performances.</em> In Proceedings of Augmented Humans 2022 (AHs 2022), March 13–15, 2022, Kashiwa, Chiba, Japan. Association for Computing Machinery, New York, NY, USA, 20 pages [[PDF]](https://doi.org/10.1145/3519391.3519412) <br>
 </span></p>
 
 If you want to create a commercial product using the VoxEMG hardware designs and don't want to release it under the same license, you will need a commercial license. Please email me at [c.n.reed@qmul.ac.uk](mailto:c.n.reed@qmul.ac.uk) to enquire further. </p>
@@ -92,6 +91,13 @@ As well, our setup for studies includes:<br>
 - Text file output containing voltages over time<br>
 - Setup for a button to be added so the vocalist can press during singing, helping with data/audio synchronisation<br>
 You can, of course, comment this out (and it's marked as such in the code).
+
+## Projects Using the VoxEMG
+
+<span style="font-size:2em;"> Reed, C. N. and McPherson, A. P. <em> Surface Electromyography for Sensing Performance Intention and Musical Imagery in Vocalists.</em> In Fifteenth International Conference on Tangible, Embedded, and Embodied Interaction (TEI’21), February 14–19, Salzburg, Austria. ACM, New York, NY, USA, 11 pages. 2021. [DOI: 10.1145/3430524.3440641](https://dl.acm.org/doi/10.1145/3430524.3440641) [[Video]](https://www.youtube.com/watch?v=XujlMjoBG04&list=PLqhXYFYmZ-VeRef4QbMrBzl3NIj6HhStb&index=31&ab_channel=ACMSIGCHI) <br>
+
+</span></p>
+<br>
 
 ## To-Do List
 There's a lot left to done, but at least for this repository, I'm planning on adding more information, including:<br>
