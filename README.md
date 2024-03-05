@@ -17,6 +17,7 @@ The schematics and PCB designs have been created in and are editable in [KiCad](
 
 ### v3.1 - eTextile Configuration
 [Version Subfolder Here](https://github.com/courtcourtaney/voxEMG/tree/master/VoxEMG-v3.1)
+
 The current version's (v3.1) configuration of the circuit is designed for implementations in wearables, featuring mounting loops in the PCB for securing the board to textile structures and castellated inputs (designed by Adan Benito and Becky Stewart for the [Bela E-textile Capelet](https://oshpark.com/shared_projects/y0oSowUt) on Innovate UK), for conductive thread inputs. <br>
 
 ### v3.1.2 - Bela Mini Capelette
@@ -95,10 +96,11 @@ You can, of course, comment this out (and it's marked as such in the code).
 
 ## Projects Using the VoxEMG
 
-<p>If you have used the circuit or designs for your project, please let us know so we can add you here!</p>
+If you have used the circuit or designs for your project, please let us know so we can add you here!
 
 ### Vocal Performances & Collaborations
 <span style="font-size:2em;"> 
+
 [<em>To Fly Out in the Heat of Day</em>](https://loubarnell.co.uk/TO-FLY-OUT-IN-THE-HEAT-OF-DAY). Lou Barnell. 2023-2024. Performed in the UK & EU ([Based in Sheffield](https://www.theatredeli.co.uk/Event/enddateto-fly-out-in-the-heat-of-the-day)).
 
 </span>
