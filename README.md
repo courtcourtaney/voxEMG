@@ -13,13 +13,16 @@ This is an ongoing body of work with origins in my PhD thesis, [Imagining & Sens
 
 ## Versions
 
+The schematics and PCB designs have been created in and are editable in [KiCad](http://kicad-pcb.org). Please feel free to adapt them to your needs and share your designs with me if you like!
+
 ### v3.1 - eTextile Configuration
+[Version Subfolder Here](https://github.com/courtcourtaney/voxEMG/tree/master/VoxEMG-v3.1)
 The current version's (v3.1) configuration of the circuit is designed for implementations in wearables, featuring mounting loops in the PCB for securing the board to textile structures and castellated inputs (designed by Adan Benito and Becky Stewart for the [Bela E-textile Capelet](https://oshpark.com/shared_projects/y0oSowUt) on Innovate UK), for conductive thread inputs. <br>
 
 ### v3.1.2 - Bela Mini Capelette
-<p>The latest PCB design (v3.1.2) features the same circuit implemented to be compatible with the Bela Mini embedded audio platforms. This setup is designed to be plug and play, with EMG being received directly on the A0 and A1 analogue inputs of the Bela Mini, and uses similar Molex connectors for electrode inputs. </p><br>
+[Version Subfolder Here](https://github.com/courtcourtaney/voxEMG/tree/master/VoxEMG-v3.1.2)
 
-he schematics and PCB designs have been created in and are editable in [KiCad](http://kicad-pcb.org). Please feel free to adapt them to your needs and share your designs with me if you like!</p>
+<p>The latest PCB design (v3.1.2) features the same circuit implemented to be compatible with the Bela Mini embedded audio platforms. This setup is designed to be plug and play, with EMG being received directly on the A0 and A1 analogue inputs of the Bela Mini, and uses similar Molex connectors for electrode inputs. </p><br>
 
 <p align="center">
 <img src="https://github.com/courtcourtaney/voxEMG/blob/master/pics/voxEMG-labeled.png" width="700"/>
@@ -87,6 +90,8 @@ As well, our setup for studies includes:<br>
 - Text file output containing voltages over time<br>
 - Setup for a button to be added so the vocalist can press during singing, helping with data/audio synchronisation<br>
 You can, of course, comment this out (and it's marked as such in the code).
+
+[Example Code Here](https://github.com/courtcourtaney/voxEMG/tree/master/examples)
 
 ## Projects Using the VoxEMG
 
