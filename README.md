@@ -14,19 +14,20 @@ This is an ongoing body of work with origins in my PhD thesis, [Imagining & Sens
 ## Versions
 
 ### v3.1 - eTextile Configuration
-<p>The current version's (v3.1) configuration of the circuit is designed for implementations in wearables, featuring mounting loops in the PCB for securing the board to textile structures and castellated inputs (designed by Adan Benito and Becky Stewart for the [Bela E-textile Capelet](https://oshpark.com/shared_projects/y0oSowUt) on Innovate UK), for conductive thread inputs. </p><br>
+The current version's (v3.1) configuration of the circuit is designed for implementations in wearables, featuring mounting loops in the PCB for securing the board to textile structures and castellated inputs (designed by Adan Benito and Becky Stewart for the [Bela E-textile Capelet](https://oshpark.com/shared_projects/y0oSowUt) on Innovate UK), for conductive thread inputs. <br>
 
 ### v3.1.2 - Bela Mini Capelette
 <p>The latest PCB design (v3.1.2) features the same circuit implemented to be compatible with the Bela Mini embedded audio platforms. This setup is designed to be plug and play, with EMG being received directly on the A0 and A1 analogue inputs of the Bela Mini, and uses similar Molex connectors for electrode inputs. </p><br>
 
-<p>The schematics and PCB designs have been created in and are editable in [KiCad](http://kicad-pcb.org). Please feel free to adapt them to your needs and share your designs with me if you like!</p><br>
+he schematics and PCB designs have been created in and are editable in [KiCad](http://kicad-pcb.org). Please feel free to adapt them to your needs and share your designs with me if you like!</p>
 
 <p align="center">
 <img src="https://github.com/courtcourtaney/voxEMG/blob/master/pics/voxEMG-labeled.png" width="700"/>
 </p>
+<br>
 
 ## Building the Circuit
-<p> If you are interested in getting a VoxEMG board, get in contact - I'm happy to help with any sEMG and vocal projects related projects and I can supply PCBs depending on the project. If you wish to make your own board, it is relatively in-expensive and easy to build the circuit yourself and try it out. A Bill of Materials (BOM) can be found in each version's folder in the file *EMGSensor3.1_bom.xlsx* or listed out below. The setup described here is for single-circuit dual muscle measurement; if you wish to only measure one muscle, you need only use one side of the ICs: </p> <br>
+<p> If you are interested in getting a VoxEMG board, get in contact - I'm happy to help with any sEMG and vocal projects related projects and I can supply PCBs depending on the project. If you wish to make your own board, it is relatively in-expensive and easy to build the circuit yourself and try it out. A Bill of Materials (BOM) can be found in each version's folder in the file *EMGSensor3.1_bom.xlsx* or listed out below. The setup described here is for single-circuit dual muscle measurement; if you wish to only measure one muscle, you need only use one side of the ICs: <br>
 
 Parts[^1]
 
@@ -53,7 +54,7 @@ Parts[^1]
 	* 2x 2.2 nF ceramic <br>
 * 2x Schottky 40V 120mA diodes <br><br>
 
-<p>The KiCad project containing the VoxEMG schematics and board layout can be found in the folder for each version *VoxEMG-v3.1,* for the textile-integrated board or *VoxEMG-v3.1.2,* for the Bela Mini capelette, otherwise using the following schematic (v3.1). This schematic depicts use of one side of the ICs - for the second muscle, the connections should be duplicated on the other side. See *VoxEMG-v3.1/EMGSensor3.1.sch* for the full schematic. </p><br>
+The KiCad project containing the VoxEMG schematics and board layout can be found in the folder for each version *VoxEMG-v3.1,* for the textile-integrated board or *VoxEMG-v3.1.2,* for the Bela Mini capelette, otherwise using the following schematic (v3.1). This schematic depicts use of one side of the ICs - for the second muscle, the connections should be duplicated on the other side. See *VoxEMG-v3.1/EMGSensor3.1.sch* for the full schematic. </p><br>
 
 <p align="center">
 <img src="https://github.com/courtcourtaney/voxEMG/blob/master/pics/sch.png" width="700"/>
@@ -69,7 +70,7 @@ Parts[^1]
 ![](https://github.com/courtcourtaney/voxEMG/blob/master/pics/PCB.png)  |  ![](https://github.com/courtcourtaney/voxEMG/blob/master/pics/3Drender.png) -->
 
 ## Example Use
-<p>Electrodes will need to be affixed to the muscle site, for instance on the suprahyoid digastric muscle here. The VoxEMG board contains both input header pins and castellated holes (designed by Adan Benito and Becky Stewart for the [Bela E-textile Capelet](https://oshpark.com/shared_projects/y0oSowUt) on Innovate UK) for electrode connections. </p><br>
+<p>Electrodes will need to be affixed to the muscle site, for instance on the suprahyoid digastric muscle here.</p><br>
 
 <p align="center">
 <img src="https://github.com/courtcourtaney/voxEMG/blob/master/pics/electrode-place-2.JPG" width="700"/>
@@ -113,7 +114,6 @@ Courtney N. Reed and Andrew P. McPherson. 2020. <em>Surface Electromyography for
 <br>
 
 ## Licensing
-<br>
 <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">VoxEMG</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Courtney N. Reed & Andrew P. McPherson</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. <br>
 
 In the spirit of open-access research, VoxEMG and the circuit/PBC designs included here are are licensed under a Creative Commons Attribtion Sharealike license, or [CC-BY-SA](https://creativecommons.org/licenses/by-sa/3.0/). The information here is free to use and edit, so long as you provide credit and release your resulting work under the same license. This means you are free to edit and use these designs, as long as you agree to supply credit and release your results under the same license. <br>
