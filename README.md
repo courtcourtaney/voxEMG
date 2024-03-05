@@ -13,11 +13,13 @@ This is an ongoing body of work with origins in my PhD thesis, [Imagining & Sens
 
 ## Versions
 
-The current version's (v3.1) configuration of the circuit is designed for implementations in wearables, featuring mounting loops in the PCB for securing the board to textile structures and castellated inputs (designed by Adan Benito and Becky Stewart for the [Bela E-textile Capelet](https://oshpark.com/shared_projects/y0oSowUt) on Innovate UK), for conductive thread inputs. <br>
+### v3.1 - eTextile Configuration
+<p>The current version's (v3.1) configuration of the circuit is designed for implementations in wearables, featuring mounting loops in the PCB for securing the board to textile structures and castellated inputs (designed by Adan Benito and Becky Stewart for the [Bela E-textile Capelet](https://oshpark.com/shared_projects/y0oSowUt) on Innovate UK), for conductive thread inputs. </p><br>
 
-The latest PCB design (v3.1.2) features the same circuit implemented to be compatible with the Bela Mini embedded audio platforms. This setup is designed to be plug and play, with EMG being received directly on the A0 and A1 analogue inputs of the Bela Mini, and uses similar Molex connectors for electrode inputs. <br>
+### v3.1.2 - Bela Mini Capelette
+<p>The latest PCB design (v3.1.2) features the same circuit implemented to be compatible with the Bela Mini embedded audio platforms. This setup is designed to be plug and play, with EMG being received directly on the A0 and A1 analogue inputs of the Bela Mini, and uses similar Molex connectors for electrode inputs. </p><br>
 
-The schematics and PCB designs have been created in and are editable in [KiCad](http://kicad-pcb.org). Please feel free to adapt them to your needs and share your designs with me if you like!<br>
+<p>The schematics and PCB designs have been created in and are editable in [KiCad](http://kicad-pcb.org). Please feel free to adapt them to your needs and share your designs with me if you like!</p><br>
 
 <p align="center">
 <img src="https://github.com/courtcourtaney/voxEMG/blob/master/pics/voxEMG-labeled.png" width="700"/>
@@ -51,7 +53,7 @@ Parts[^1]
 	* 2x 2.2 nF ceramic <br>
 * 2x Schottky 40V 120mA diodes <br><br>
 
-The KiCad project containing the VoxEMG schematics and board layout can be found in the folder for each version *VoxEMG-v3.1,* for the textile-integrated board or *VoxEMG-v3.1.2,* for the Bela Mini capelette, otherwise using the following schematic (v3.1). This schematic depicts use of one side of the ICs - for the second muscle, the connections should be duplicated on the other side. See *VoxEMG-v3.1/EMGSensor3.1.sch* for the full schematic. <br>
+<p>The KiCad project containing the VoxEMG schematics and board layout can be found in the folder for each version *VoxEMG-v3.1,* for the textile-integrated board or *VoxEMG-v3.1.2,* for the Bela Mini capelette, otherwise using the following schematic (v3.1). This schematic depicts use of one side of the ICs - for the second muscle, the connections should be duplicated on the other side. See *VoxEMG-v3.1/EMGSensor3.1.sch* for the full schematic. </p><br>
 
 <p align="center">
 <img src="https://github.com/courtcourtaney/voxEMG/blob/master/pics/sch.png" width="700"/>
@@ -67,15 +69,14 @@ The KiCad project containing the VoxEMG schematics and board layout can be found
 ![](https://github.com/courtcourtaney/voxEMG/blob/master/pics/PCB.png)  |  ![](https://github.com/courtcourtaney/voxEMG/blob/master/pics/3Drender.png) -->
 
 ## Example Use
-Electrodes will need to be affixed to the muscle site, for instance on the suprahyoid digastric muscle here. The VoxEMG board contains both input header pins and castellated holes (designed by Adan Benito and Becky Stewart for the [Bela E-textile Capelet](https://oshpark.com/shared_projects/y0oSowUt) on Innovate UK) for electrode connections. <br>
-
-It is implemented in a wearable collar is being used to explore the vocalist-voice relationship by visualizing and sonifying movement.
+<p>Electrodes will need to be affixed to the muscle site, for instance on the suprahyoid digastric muscle here. The VoxEMG board contains both input header pins and castellated holes (designed by Adan Benito and Becky Stewart for the [Bela E-textile Capelet](https://oshpark.com/shared_projects/y0oSowUt) on Innovate UK) for electrode connections. </p><br>
 
 <p align="center">
 <img src="https://github.com/courtcourtaney/voxEMG/blob/master/pics/electrode-place-2.JPG" width="700"/>
 </p>
 
-We use a Bela for collection of voltages from the EMG, and so the code included here is also for Bela - it is fine to use another microcontroller, so long as you're ok with implementing some simple digital filtering. In this case, we use the analog inputs on Bela.<br>
+<p>
+We use a Bela for collection of voltages from the EMG, and so the code included here is also for Bela - it is fine to use another microcontroller, so long as you're ok with implementing some simple digital filtering. In this case, we use the analog inputs on Bela.</p><br>
 
 Bela handles some additional filtering of the EMG signal, including:<br>
 - DC offset removal (from the DC signal introduced in the voltage divider)<br>
@@ -88,10 +89,13 @@ You can, of course, comment this out (and it's marked as such in the code).
 
 ## Projects Using the VoxEMG
 
-If you have used the circuit or designs for your project, please let us know so we can add you here!
+<p>If you have used the circuit or designs for your project, please let us know so we can add you here!</p>
 
 ### Vocal Performances & Collaborations
+<span style="font-size:2em;"> 
 [<em>To Fly Out in the Heat of Day</em>](https://loubarnell.co.uk/TO-FLY-OUT-IN-THE-HEAT-OF-DAY). Lou Barnell. 2023-2024. Performed in the UK & EU ([Based in Sheffield](https://www.theatredeli.co.uk/Event/enddateto-fly-out-in-the-heat-of-the-day)).
+
+</span>
 
 ### Research Work & Papers
 <span style="font-size:2em;"> 
@@ -104,17 +108,19 @@ Courtney N. Reed and Andrew P. McPherson. 2021. <em>Surface Electromyography for
 
 Courtney N. Reed and Andrew P. McPherson. 2020. <em>Surface Electromyography for Direct Vocal Control.</em> In Proceedings of the International Conference on New Interfaces for Musical Expression (NIME), July 21-25, Birmingham, UK, pp. 458–463. Birmingham Conservatoire, Birmingham, UK. https://doi.org/10.5281/zenodo.4813475 [[PDF]](https://www.courtneynreed.com/assets/pdf/Reed_NIME20_VocalsEMG.pdf) <br>
 	
-</span></p>
+</span>
 
 <br>
 
 ## Licensing
-
+<br>
 <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">VoxEMG</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Courtney N. Reed & Andrew P. McPherson</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. <br>
 
 In the spirit of open-access research, VoxEMG and the circuit/PBC designs included here are are licensed under a Creative Commons Attribtion Sharealike license, or [CC-BY-SA](https://creativecommons.org/licenses/by-sa/3.0/). The information here is free to use and edit, so long as you provide credit and release your resulting work under the same license. This means you are free to edit and use these designs, as long as you agree to supply credit and release your results under the same license. <br>
 
 If you use these designs or reference them, we ask that you please also cite the following papers in your work: <br>
+
+If you want to create a commercial product using the VoxEMG hardware designs and don't want to release it under the same license, you will need a commercial license. Please email me at [c.n.reed@lboro.ac.uk](mailto:c.n.reed@lboro.ac.uk) to enquire further. </p>
 
 ```latex
 @inproceedings{Reed_AHs22_SingingKnit,
@@ -154,7 +160,6 @@ If you use these designs or reference them, we ask that you please also cite the
 }
 ```
 
-If you want to create a commercial product using the VoxEMG hardware designs and don't want to release it under the same license, you will need a commercial license. Please email me at [c.n.reed@lboro.ac.uk](mailto:c.n.reed@lboro.ac.uk) to enquire further. </p>
 <!-- 
 ## To-Do List
 There's a lot left to done, but at least for this repository, I'm planning on adding more information, including:<br>
