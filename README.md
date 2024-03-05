@@ -9,7 +9,7 @@
 	
 The VoxEMG circuit is an extension of the open-source [EMG Circuit v7.1 (Advancer Technologies)](advancertechnologies.com/p/muscle-sensor-emg-circuitkit-bronze.html), from which other EMG platforms such as the Myoware are derived. VoxEMG is specifically aimed to detect activation of the extrinsic laryngeal muscles in both vocalised and subvocalised singing. High-precision and trimmable resistors are used to ensure noise reduction and the circuit is flexible to be used with different types of electrodes for desired implementation. The EMG signals can then be used in a variety of manners, for instance to relay feedback about the singer's movements during practice. <br>
 
-This is an ongoing body of work with origins in my PhD thesis, [Imagining & Sensing: Understanding and Extending the Vocalist-Voice Relationship Through Biosignal Feedback](https://www.courtneynreed.com/assets/pdf/Reed_PhD_ImaginingSensing.pdf), which contains details on how the circuit and sonified EMG biofeedback has been used in vocal practice. I am always adding more information and designs, so please keep an eye out for updates, new implementations and improvements, and feel free to get in contact at any time regarding the project, what you're working on with it, and anything I can help with at: [c.n.reed@lboro.ac.uk](mailto:c.n.reed@lboro.ac.uk) </p><br>
+This is an ongoing body of work with origins in my PhD thesis, [Imagining & Sensing: Understanding and Extending the Vocalist-Voice Relationship Through Biosignal Feedback](https://www.courtneynreed.com/assets/pdf/Reed_PhD_ImaginingSensing.pdf), which contains details on how the circuit and sonified EMG biofeedback has been used in vocal practice. I am always adding more information and designs, so please keep an eye out for updates, new implementations and improvements, and feel free to get in contact at any time regarding the project, what you're working on with it, and anything I can help with at: [c.n.reed@lboro.ac.uk](mailto:c.n.reed@lboro.ac.uk) </p>
 
 ## Versions
 
@@ -28,7 +28,6 @@ The current version's (v3.1) configuration of the circuit is designed for implem
 <p align="center">
 <img src="https://github.com/courtcourtaney/voxEMG/blob/master/pics/voxEMG-labeled.png" width="700"/>
 </p>
-<br>
 
 ## Building the Circuit
 <p> If you are interested in getting a VoxEMG board, get in contact - I'm happy to help with any sEMG and vocal projects related projects and I can supply PCBs depending on the project. If you wish to make your own board, it is relatively in-expensive and easy to build the circuit yourself and try it out. A Bill of Materials (BOM) can be found in each version's folder in the file *EMGSensor3.1_bom.xlsx* or listed out below. The setup described here is for single-circuit dual muscle measurement; if you wish to only measure one muscle, you need only use one side of the ICs: <br>
@@ -98,12 +97,10 @@ You can, of course, comment this out (and it's marked as such in the code).
 
 If you have used the circuit or designs for your project, please let us know so we can add you here!
 
-### Vocal Performances & Collaborations
-<span style="font-size:2em;"> 
+### Vocal Performances & Collaborations
 
 [<em>To Fly Out in the Heat of Day</em>](https://loubarnell.co.uk/TO-FLY-OUT-IN-THE-HEAT-OF-DAY). Lou Barnell. 2023-2024. Performed in the UK & EU ([Based in Sheffield](https://www.theatredeli.co.uk/Event/enddateto-fly-out-in-the-heat-of-the-day)).
 
-</span>
 
 ### Research Work & Papers
 <span style="font-size:2em;"> 
