@@ -27,9 +27,9 @@ The current version's (v3.1) configuration of the circuit is designed for implem
 ### v3.1.2 - Bela Mini Capelet
 [Version Subfolder Here](https://github.com/courtcourtaney/voxEMG/tree/master/VoxEMG-v3.1.2)
 
-<p>The latest PCB design (v3.1.2) features the same circuit implemented to be compatible with the Bela Mini embedded audio platforms. This setup is designed to be plug and play, with EMG being received directly on the A0 and A1 analogue inputs of the Bela Mini, and uses similar Molex connectors for electrode inputs. </p><br>
+<p>The latest PCB design (v3.1.2) features the same circuit implemented to be compatible with the Bela Mini embedded audio platforms. This setup is designed to be plug and play, with EMG being received directly on the A0 and A1 analogue inputs of the Bela Mini, and uses similar Molex connectors for electrode inputs. </p>
 
-The design of this v3.1.2 capelet was supported by Sound & Music UK's New Voices with vocalist Lou Barnell as part of the piece [<em>To Fly Out in the Heat of Day</em>](https://loubarnell.co.uk/TO-FLY-OUT-IN-THE-HEAT-OF-DAY)
+The design of this v3.1.2 capelet was supported by [Sound & Music UK's New Voices 2022](https://soundandmusic.org/compose/new-voices-2022/) with vocalist Lou Barnell as part of the piece [<em>To Fly Out in the Heat of Day</em>](https://loubarnell.co.uk/TO-FLY-OUT-IN-THE-HEAT-OF-DAY) - thank you!
 
 <p align="center">
 <img src="https://github.com/courtcourtaney/voxEMG/blob/master/pics/VoxEMG-bela.png" width="700"/>
